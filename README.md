@@ -1,6 +1,6 @@
 # Tweets from NC12
 
-Extract tweets from NC12.
+Extract tweets from NC12 (https://twitter.com/NCDOT_NC12)
 
 users will need to set up their own twitter app + get API keys
 see this nice tutorial from CU EarthLab Earth Data Analytics Online Certificate program:
