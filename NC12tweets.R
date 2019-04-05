@@ -36,5 +36,12 @@ nc12 %>%
     caption = "\nSource: Data collected from Twitter's REST API via rtweet"
   )
 
+#find all mentions of overwash
+nc12ow <- filter(nc12, grepl('overwash', text))
+
+#save the overwash tweets
+write_as_csv(nc12ow, "NC12_overwash", prepend_ids = TRUE, na = "",
+             fileEncoding = "UTF-8")
+
 
 #############
