@@ -19,6 +19,7 @@ twitter_token <- create_token(
   consumer_key = key,
   consumer_secret = secret)
 
+#max 3200 statuses.
 nc12 <- get_timeline("NCDOT_NC12", n = 3000)
 
 ## plot the frequency of tweets for each user over time
